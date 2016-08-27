@@ -139,7 +139,7 @@ class Median_Of_Two_Sorted_Array: Solution {
     func build_heap_max(list: [Int], len: Int) -> [Int] {
         var buildList = list
         let maxIndex = len / 2 - 1
-        if maxIndex < 0 {
+        guard maxIndex >= 0 else {
             return buildList
         }
         for num in (0...maxIndex).reverse() {
@@ -173,7 +173,7 @@ class Median_Of_Two_Sorted_Array: Solution {
     
     func heap_sort_max(list: [Int], len: Int) -> [Int] {
         var tmpList = build_heap_max(list, len: len)
-        if len - 1 < 1 {
+        guard len - 1 >= 1 else {
             return tmpList
         }
         var tmp_n = len;
