@@ -23,9 +23,11 @@ class ViewController: UIViewController {
 //        let Answer3 = Longest_Substring_Without_Repeating_Characters()
 //        Answer2.ExampleTest()
         
-        let Answer4 = Median_Of_Two_Sorted_Array()
-        Answer4.ExampleTest()
-        
+//        let Answer4 = Median_Of_Two_Sorted_Array()
+//        Answer4.ExampleTest()
+
+        let Answer5 = Longest_Palindromic_Substring()
+        Answer5.ExampleTest()
     }
 
     override func didReceiveMemoryWarning() {
