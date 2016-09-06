@@ -26,8 +26,11 @@ class ViewController: UIViewController {
 //        let Answer4 = Median_Of_Two_Sorted_Array()
 //        Answer4.ExampleTest()
 
-        let Answer5 = Longest_Palindromic_Substring()
-        Answer5.ExampleTest()
+//        let Answer5 = Longest_Palindromic_Substring()
+//        Answer5.ExampleTest()
+        
+        let Answer6 = ZigZag_Conversion()
+        Answer6.ExampleTest()
     }
 
     override func didReceiveMemoryWarning() {
