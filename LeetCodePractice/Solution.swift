@@ -15,10 +15,32 @@ enum Question {
     case Median_Of_Two_Sorted_Array
     case Longest_Palindromic_Substring
     case ZigZag_Conversion
+    case Reverse_Integer
 }
 
 class Solution: NSObject {
     func ExampleTest() -> Void {
         
+    }
+    
+    func showResult(type: Question) -> Void {
+        var solution: Solution
+        switch type {
+        case .Two_Sum:
+            solution = Two_Sum()
+        case .Add_Two_Numbers:
+            solution = Add_Two_Numbers()
+        case .Longest_Substring_Without_Repeating_Characters:
+            solution = Longest_Substring_Without_Repeating_Characters()
+        case .Median_Of_Two_Sorted_Array:
+            solution = Median_Of_Two_Sorted_Array()
+        case .Longest_Palindromic_Substring:
+            solution = Longest_Palindromic_Substring()
+        case .ZigZag_Conversion:
+            solution = ZigZag_Conversion()
+        case .Reverse_Integer:
+            solution = Reverse_Integer()
+        }
+        solution.ExampleTest()
     }
 }

@@ -21,6 +21,7 @@
 		EB717B461D6FFD2A003F849C /* Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB717B451D6FFD2A003F849C /* Two_Sum.swift */; };
 		EB717B5B1D73E500003F849C /* Longest_Palindromic_Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB717B5A1D73E500003F849C /* Longest_Palindromic_Substring.swift */; };
 		EB8D16C81D7D742B003E64C8 /* ZigZag_Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8D16C71D7D742B003E64C8 /* ZigZag_Conversion.swift */; };
+		EB8D16E31D7FA3BC003E64C8 /* Reverse_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8D16E21D7FA3BC003E64C8 /* Reverse_Integer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		EB717B451D6FFD2A003F849C /* Two_Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Two_Sum.swift; sourceTree = "<group>"; };
 		EB717B5A1D73E500003F849C /* Longest_Palindromic_Substring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Longest_Palindromic_Substring.swift; sourceTree = "<group>"; };
 		EB8D16C71D7D742B003E64C8 /* ZigZag_Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZigZag_Conversion.swift; sourceTree = "<group>"; };
+		EB8D16E21D7FA3BC003E64C8 /* Reverse_Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reverse_Integer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				EB717B3D1D6FF225003F849C /* Median_Of_Two_Sorted_Array.swift */,
 				EB717B5A1D73E500003F849C /* Longest_Palindromic_Substring.swift */,
 				EB8D16C71D7D742B003E64C8 /* ZigZag_Conversion.swift */,
+				EB8D16E21D7FA3BC003E64C8 /* Reverse_Integer.swift */,
 			);
 			path = LeetCodePractice;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				EB717B421D6FFC99003F849C /* Add_Two_Numbers.swift in Sources */,
 				EB717B401D6FF267003F849C /* Longest_Substring_Without_Repeating_Characters.swift in Sources */,
 				EB717B441D6FFCC1003F849C /* Solution.swift in Sources */,
+				EB8D16E31D7FA3BC003E64C8 /* Reverse_Integer.swift in Sources */,
 				EB8D16C81D7D742B003E64C8 /* ZigZag_Conversion.swift in Sources */,
 				EB717B5B1D73E500003F849C /* Longest_Palindromic_Substring.swift in Sources */,
 				EB717B3E1D6FF225003F849C /* Median_Of_Two_Sorted_Array.swift in Sources */,

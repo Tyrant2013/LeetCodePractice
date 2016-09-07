@@ -13,24 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-//        let Answer1 = Two_Sum()
-//        Answer1.ExampleTest()
-        
-//        let Answer2 = Add_Two_Numbers()
-//        Answer2.ExampleTest()
-        
-//        let Answer3 = Longest_Substring_Without_Repeating_Characters()
-//        Answer2.ExampleTest()
-        
-//        let Answer4 = Median_Of_Two_Sorted_Array()
-//        Answer4.ExampleTest()
-
-//        let Answer5 = Longest_Palindromic_Substring()
-//        Answer5.ExampleTest()
-        
-        let Answer6 = ZigZag_Conversion()
-        Answer6.ExampleTest()
+        let solution = Solution()
+        solution.showResult(.Reverse_Integer)
     }
 
     override func didReceiveMemoryWarning() {
