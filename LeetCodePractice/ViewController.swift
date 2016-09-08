@@ -14,7 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let solution = Solution()
-        solution.showResult(.Reverse_Integer)
+//        solution.showResult(.Reverse_Integer)
+        solution.showResult(.String_To_Integer)
     }
 
     override func didReceiveMemoryWarning() {

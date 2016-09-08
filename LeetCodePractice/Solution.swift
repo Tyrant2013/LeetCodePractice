@@ -16,6 +16,7 @@ enum Question {
     case Longest_Palindromic_Substring
     case ZigZag_Conversion
     case Reverse_Integer
+    case String_To_Integer
 }
 
 class Solution: NSObject {
@@ -40,6 +41,8 @@ class Solution: NSObject {
             solution = ZigZag_Conversion()
         case .Reverse_Integer:
             solution = Reverse_Integer()
+        case .String_To_Integer:
+            solution = String_To_Integer_aoti_()
         }
         solution.ExampleTest()
     }

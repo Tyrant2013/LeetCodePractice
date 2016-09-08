@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB39B96E1D80EFDA0037BB89 /* String_To_Integer(aoti).swift in Sources */ = {isa = PBXBuildFile; fileRef = EB39B96D1D80EFDA0037BB89 /* String_To_Integer(aoti).swift */; };
 		EB5DA0821CEDBC710060092D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5DA0811CEDBC710060092D /* AppDelegate.swift */; };
 		EB5DA0841CEDBC710060092D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5DA0831CEDBC710060092D /* ViewController.swift */; };
 		EB5DA0871CEDBC710060092D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5DA0851CEDBC710060092D /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB39B96D1D80EFDA0037BB89 /* String_To_Integer(aoti).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String_To_Integer(aoti).swift"; sourceTree = "<group>"; };
 		EB5DA07E1CEDBC710060092D /* LeetCodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5DA0811CEDBC710060092D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB5DA0831CEDBC710060092D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				EB717B5A1D73E500003F849C /* Longest_Palindromic_Substring.swift */,
 				EB8D16C71D7D742B003E64C8 /* ZigZag_Conversion.swift */,
 				EB8D16E21D7FA3BC003E64C8 /* Reverse_Integer.swift */,
+				EB39B96D1D80EFDA0037BB89 /* String_To_Integer(aoti).swift */,
 			);
 			path = LeetCodePractice;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				EB717B5B1D73E500003F849C /* Longest_Palindromic_Substring.swift in Sources */,
 				EB717B3E1D6FF225003F849C /* Median_Of_Two_Sorted_Array.swift in Sources */,
 				EB5DA0841CEDBC710060092D /* ViewController.swift in Sources */,
+				EB39B96E1D80EFDA0037BB89 /* String_To_Integer(aoti).swift in Sources */,
 				EB717B461D6FFD2A003F849C /* Two_Sum.swift in Sources */,
 				EB5DA0821CEDBC710060092D /* AppDelegate.swift in Sources */,
 			);
