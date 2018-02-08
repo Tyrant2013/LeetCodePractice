@@ -17,6 +17,9 @@ enum Question {
     case ZigZag_Conversion
     case Reverse_Integer
     case String_To_Integer
+    case Longest_Common_Prefix
+    case Is_Palindrome
+    case Roman_To_Int
 }
 
 class Solution: NSObject {
@@ -43,6 +46,12 @@ class Solution: NSObject {
             solution = Reverse_Integer()
         case .String_To_Integer:
             solution = String_To_Integer_aoti_()
+        case .Longest_Common_Prefix:
+            solution = Longest_Common_Prefix()
+        case .Is_Palindrome:
+            solution = Is_Palindrome()
+        case .Roman_To_Int:
+            solution = Roman_To_Int()
         }
         solution.ExampleTest()
     }
