@@ -16,7 +16,8 @@ class ViewController: UIViewController {
         let solution = Solution()
 //        solution.showResult(.Reverse_Integer)
 //        solution.showResult(.String_To_Integer)
-        solution.showResult(.Valid_Parentheses)
+//        solution.showResult(.Valid_Parentheses)
+        solution.showResult(.Merge_Two_Lists)
     }
 
     override func didReceiveMemoryWarning() {

@@ -21,6 +21,7 @@ enum Question {
     case Is_Palindrome
     case Roman_To_Int
     case Valid_Parentheses
+    case Merge_Two_Lists
 }
 
 class Solution: NSObject {
@@ -55,6 +56,8 @@ class Solution: NSObject {
             solution = Roman_To_Int()
         case .Valid_Parentheses:
             solution = Valid_Parentheses()
+        case .Merge_Two_Lists:
+            solution = Merge_Two_Lists()
         }
         solution.ExampleTest()
     }

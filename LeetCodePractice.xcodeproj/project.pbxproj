@@ -27,6 +27,7 @@
 		EB717B5B1D73E500003F849C /* Longest_Palindromic_Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB717B5A1D73E500003F849C /* Longest_Palindromic_Substring.swift */; };
 		EB8D16C81D7D742B003E64C8 /* ZigZag_Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8D16C71D7D742B003E64C8 /* ZigZag_Conversion.swift */; };
 		EB8D16E31D7FA3BC003E64C8 /* Reverse_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8D16E21D7FA3BC003E64C8 /* Reverse_Integer.swift */; };
+		EBC082A4202D7ECE00E2036D /* Merge_Two_Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC082A3202D7ECE00E2036D /* Merge_Two_Lists.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		EB717B5A1D73E500003F849C /* Longest_Palindromic_Substring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Longest_Palindromic_Substring.swift; sourceTree = "<group>"; };
 		EB8D16C71D7D742B003E64C8 /* ZigZag_Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZigZag_Conversion.swift; sourceTree = "<group>"; };
 		EB8D16E21D7FA3BC003E64C8 /* Reverse_Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reverse_Integer.swift; sourceTree = "<group>"; };
+		EBC082A3202D7ECE00E2036D /* Merge_Two_Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge_Two_Lists.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				EB28B031202C54A3001E8AFC /* Is_Palindrome.swift */,
 				EB28B033202C54D2001E8AFC /* Roman_To_Int.swift */,
 				EB28B035202D7541001E8AFC /* Valid_Parentheses.swift */,
+				EBC082A3202D7ECE00E2036D /* Merge_Two_Lists.swift */,
 			);
 			path = LeetCodePractice;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				EB8D16E31D7FA3BC003E64C8 /* Reverse_Integer.swift in Sources */,
 				EB28B036202D7541001E8AFC /* Valid_Parentheses.swift in Sources */,
 				EB8D16C81D7D742B003E64C8 /* ZigZag_Conversion.swift in Sources */,
+				EBC082A4202D7ECE00E2036D /* Merge_Two_Lists.swift in Sources */,
 				EB717B5B1D73E500003F849C /* Longest_Palindromic_Substring.swift in Sources */,
 				EB717B3E1D6FF225003F849C /* Median_Of_Two_Sorted_Array.swift in Sources */,
 				EB28B030202C53BF001E8AFC /* Longest_Common_Prefix.swift in Sources */,
