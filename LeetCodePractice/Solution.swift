@@ -20,6 +20,7 @@ enum Question {
     case Longest_Common_Prefix
     case Is_Palindrome
     case Roman_To_Int
+    case Valid_Parentheses
 }
 
 class Solution: NSObject {
@@ -52,6 +53,8 @@ class Solution: NSObject {
             solution = Is_Palindrome()
         case .Roman_To_Int:
             solution = Roman_To_Int()
+        case .Valid_Parentheses:
+            solution = Valid_Parentheses()
         }
         solution.ExampleTest()
     }

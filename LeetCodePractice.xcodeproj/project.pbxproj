@@ -10,6 +10,7 @@
 		EB28B030202C53BF001E8AFC /* Longest_Common_Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB28B02F202C53BF001E8AFC /* Longest_Common_Prefix.swift */; };
 		EB28B032202C54A3001E8AFC /* Is_Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB28B031202C54A3001E8AFC /* Is_Palindrome.swift */; };
 		EB28B034202C54D2001E8AFC /* Roman_To_Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB28B033202C54D2001E8AFC /* Roman_To_Int.swift */; };
+		EB28B036202D7541001E8AFC /* Valid_Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB28B035202D7541001E8AFC /* Valid_Parentheses.swift */; };
 		EB39B96E1D80EFDA0037BB89 /* String_To_Integer(aoti).swift in Sources */ = {isa = PBXBuildFile; fileRef = EB39B96D1D80EFDA0037BB89 /* String_To_Integer(aoti).swift */; };
 		EB5DA0821CEDBC710060092D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5DA0811CEDBC710060092D /* AppDelegate.swift */; };
 		EB5DA0841CEDBC710060092D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5DA0831CEDBC710060092D /* ViewController.swift */; };
@@ -49,6 +50,7 @@
 		EB28B02F202C53BF001E8AFC /* Longest_Common_Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Longest_Common_Prefix.swift; sourceTree = "<group>"; };
 		EB28B031202C54A3001E8AFC /* Is_Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Is_Palindrome.swift; sourceTree = "<group>"; };
 		EB28B033202C54D2001E8AFC /* Roman_To_Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roman_To_Int.swift; sourceTree = "<group>"; };
+		EB28B035202D7541001E8AFC /* Valid_Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valid_Parentheses.swift; sourceTree = "<group>"; };
 		EB39B96D1D80EFDA0037BB89 /* String_To_Integer(aoti).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String_To_Integer(aoti).swift"; sourceTree = "<group>"; };
 		EB5DA07E1CEDBC710060092D /* LeetCodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5DA0811CEDBC710060092D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				EB28B02F202C53BF001E8AFC /* Longest_Common_Prefix.swift */,
 				EB28B031202C54A3001E8AFC /* Is_Palindrome.swift */,
 				EB28B033202C54D2001E8AFC /* Roman_To_Int.swift */,
+				EB28B035202D7541001E8AFC /* Valid_Parentheses.swift */,
 			);
 			path = LeetCodePractice;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				EB28B034202C54D2001E8AFC /* Roman_To_Int.swift in Sources */,
 				EB717B441D6FFCC1003F849C /* Solution.swift in Sources */,
 				EB8D16E31D7FA3BC003E64C8 /* Reverse_Integer.swift in Sources */,
+				EB28B036202D7541001E8AFC /* Valid_Parentheses.swift in Sources */,
 				EB8D16C81D7D742B003E64C8 /* ZigZag_Conversion.swift in Sources */,
 				EB717B5B1D73E500003F849C /* Longest_Palindromic_Substring.swift in Sources */,
 				EB717B3E1D6FF225003F849C /* Median_Of_Two_Sorted_Array.swift in Sources */,
