@@ -28,6 +28,8 @@
 		EB8D16C81D7D742B003E64C8 /* ZigZag_Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8D16C71D7D742B003E64C8 /* ZigZag_Conversion.swift */; };
 		EB8D16E31D7FA3BC003E64C8 /* Reverse_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8D16E21D7FA3BC003E64C8 /* Reverse_Integer.swift */; };
 		EBC082A4202D7ECE00E2036D /* Merge_Two_Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC082A3202D7ECE00E2036D /* Merge_Two_Lists.swift */; };
+		EBC082A6202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC082A5202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift */; };
+		EBC082A8202D8AC800E2036D /* Remove_Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC082A7202D8AC800E2036D /* Remove_Element.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		EB8D16C71D7D742B003E64C8 /* ZigZag_Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZigZag_Conversion.swift; sourceTree = "<group>"; };
 		EB8D16E21D7FA3BC003E64C8 /* Reverse_Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reverse_Integer.swift; sourceTree = "<group>"; };
 		EBC082A3202D7ECE00E2036D /* Merge_Two_Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge_Two_Lists.swift; sourceTree = "<group>"; };
+		EBC082A5202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remove_Duplicates_From_Sorted_Array.swift; sourceTree = "<group>"; };
+		EBC082A7202D8AC800E2036D /* Remove_Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remove_Element.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,8 @@
 				EB28B033202C54D2001E8AFC /* Roman_To_Int.swift */,
 				EB28B035202D7541001E8AFC /* Valid_Parentheses.swift */,
 				EBC082A3202D7ECE00E2036D /* Merge_Two_Lists.swift */,
+				EBC082A5202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift */,
+				EBC082A7202D8AC800E2036D /* Remove_Element.swift */,
 			);
 			path = LeetCodePractice;
 			sourceTree = "<group>";
@@ -298,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBC082A8202D8AC800E2036D /* Remove_Element.swift in Sources */,
 				EB717B421D6FFC99003F849C /* Add_Two_Numbers.swift in Sources */,
 				EB717B401D6FF267003F849C /* Longest_Substring_Without_Repeating_Characters.swift in Sources */,
 				EB28B034202C54D2001E8AFC /* Roman_To_Int.swift in Sources */,
@@ -314,6 +321,7 @@
 				EB28B032202C54A3001E8AFC /* Is_Palindrome.swift in Sources */,
 				EB717B461D6FFD2A003F849C /* Two_Sum.swift in Sources */,
 				EB5DA0821CEDBC710060092D /* AppDelegate.swift in Sources */,
+				EBC082A6202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

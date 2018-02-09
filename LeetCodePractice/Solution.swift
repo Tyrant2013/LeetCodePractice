@@ -22,6 +22,8 @@ enum Question {
     case Roman_To_Int
     case Valid_Parentheses
     case Merge_Two_Lists
+    case Remove_Duplicates_From_Sorted_Array
+    case Remove_Element
 }
 
 class Solution: NSObject {
@@ -58,6 +60,10 @@ class Solution: NSObject {
             solution = Valid_Parentheses()
         case .Merge_Two_Lists:
             solution = Merge_Two_Lists()
+        case .Remove_Duplicates_From_Sorted_Array:
+            solution = Remove_Duplicates_From_Sorted_Array()
+        case .Remove_Element:
+            solution = Remove_Element()
         }
         solution.ExampleTest()
     }
