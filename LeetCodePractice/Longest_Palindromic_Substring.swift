@@ -21,26 +21,27 @@ class Longest_Palindromic_Substring: Solution {
         print(longestPalindrome("abba"))
 //        longestPalindrome("cabba")
         print(longestPalindrome("abbbbbbbbdbbbbbbba"))
-        let beginTime = NSDate.timeIntervalSinceReferenceDate();
+        let beginTime = NSDate.timeIntervalSinceReferenceDate;
         let str = longestPalindrome("rgczcpratwyqxaszbuwwcadruayhasynuxnakpmsyhxzlnxmdtsqqlmwnbxvmgvllafrpmlfuqpbhjddmhmbcgmlyeypkfpreddyencsdmgxysctpubvgeedhurvizgqxclhpfrvxggrowaynrtuwvvvwnqlowdihtrdzjffrgoeqivnprdnpvfjuhycpfydjcpfcnkpyujljiesmuxhtizzvwhvpqylvcirwqsmpptyhcqybstsfgjadicwzycswwmpluvzqdvnhkcofptqrzgjqtbvbdxylrylinspncrkxclykccbwridpqckstxdjawvziucrswpsfmisqiozworibeycuarcidbljslwbalcemgymnsxfziattdylrulwrybzztoxhevsdnvvljfzzrgcmagshucoalfiuapgzpqgjjgqsmcvtdsvehewrvtkeqwgmatqdpwlayjcxcavjmgpdyklrjcqvxjqbjucfubgmgpkfdxznkhcejscymuildfnuxwmuklntnyycdcscioimenaeohgpbcpogyifcsatfxeslstkjclauqmywacizyapxlgtcchlxkvygzeucwalhvhbwkvbceqajstxzzppcxoanhyfkgwaelsfdeeviqogjpresnoacegfeejyychabkhszcokdxpaqrprwfdahjqkfptwpeykgumyemgkccynxuvbdpjlrbgqtcqulxodurugofuwzudnhgxdrbbxtrvdnlodyhsifvyspejenpdckevzqrexplpcqtwtxlimfrsjumiygqeemhihcxyngsemcolrnlyhqlbqbcestadoxtrdvcgucntjnfavylip")
-        let endTime = NSDate.timeIntervalSinceReferenceDate()
+        let endTime = NSDate.timeIntervalSinceReferenceDate
         print("use time: \(endTime - beginTime)")
         print("Result: \(str)")
     }
     
-    func longestPalindrome(s: String) -> String {
+    func longestPalindrome(_ s: String) -> String {
 //        return longestPalindrome_dp(s)
         return longestPalindrome_expand(s)
     }
     
-    func longestPalindrome_dp(s: String) -> String {
-        let len = s.length
+    func longestPalindrome_dp(_ s: String) -> String {
+        let len = s.count
         var startPos = 0
         var maxLen = 1
-        var map = Array(count: len + 1, repeatedValue: Array(count: len + 1, repeatedValue: false))
+        var map = Array(repeating: Array(repeating: false, count: len + 1), count: len + 1)
+        let strArray = s.map({ $0 })
         for index in 0..<len - 1 {
             map[index][index] = true
-            if s[index] == s[index + 1] {
+            if strArray[index] == strArray[index + 1] {
                 map[index][index + 1] = true
                 startPos = index
                 maxLen = 2
@@ -50,71 +51,73 @@ class Longest_Palindromic_Substring: Solution {
         for n in 3...len {
             for i in 0..<len-n+1 {
                 let j = i + n - 1
-                if s[i] == s[j] && map[i + 1][j - 1] {
+                if strArray[i] == strArray[j] && map[i + 1][j - 1] {
                     map[i][j] = true
                     startPos = i
                     maxLen = n
                 }
             }
         }
-        return s[startPos..<(startPos + maxLen)]
+        return String(strArray[startPos..<(startPos + maxLen)])
     }
     
-    func longestPalindrome_expand(s: String) -> String {
-        let len = s.length
-        
+    func longestPalindrome_expand(_ s: String) -> String {
+        let len = s.count
+        let strArray = s.map({ $0 })
         guard len <= 1000 && len > 0 else {
             return ""
         }
-        var longestString = s[0]
+        var longestString = String(strArray[0])
         for num in 0..<len {
             let p1 = expandAroundString(s, left: num, right: num)
-            if p1.length > longestString.length {
+            if p1.count > longestString.count {
                 longestString = p1
             }
             let p2 = expandAroundString(s, left: num, right: num + 1)
-            if p2.length > longestString.length {
+            if p2.count > longestString.count {
                 longestString = p2
             }
         }
-        return longestString
+        return String(longestString)
     }
     
-    func expandAroundString(s: String, left: Int, right: Int) -> String {
+    func expandAroundString(_ s: String, left: Int, right: Int) -> String {
         var l = left, r = right
-        let len = s.length
-        while l >= 0 && r <= len - 1 && s[l] == s[r] {
+        let len = s.count
+        let strArray = s.map({ $0 })
+        while l >= 0 && r <= len - 1 && strArray[l] == strArray[r] {
             l -= 1
             r += 1
         }
         l += 1
         r -= 1
         if (l <= r && l >= 0 && r >= 0) {
-            return s[l...r]
+            return String(strArray[l...r])
         }
         return ""
     }
     
 }
 
-extension String {
-    subscript (index: Int) -> String {
-        get {
-            let startIndex = self.startIndex.advancedBy(index)
-            let endIndex = self.startIndex.advancedBy(index)
-            return self[startIndex...endIndex]
-        }
-    }
-    subscript (range: Range<Int>) -> String {
-        get {
-            let startIndex = self.startIndex.advancedBy(range.startIndex)
-            let endIndex = self.startIndex.advancedBy(range.endIndex - 1)
-            return self[startIndex...endIndex]
-        }
-    }
-    var length: Int {
-        get {
-            return self.lengthOfBytesUsingEncoding(NSUTF8StringEncoding)
-        }
-    }
-}
+//extension String {
+//    subscript (index: Int) -> String {
+//        get {
+//            let startIndex = self.startIndex.advanced(by: index)
+//            let endIndex = self.startIndex.advanced(by: index)
+//            return String(self[startIndex...endIndex])
+//        }
+//    }
+//    subscript (range: Range<Int>) -> String {
+//        get {
+//            let startIndex = self.startIndex.advanced(by: range.startIndex)
+//            let endIndex = self.startIndex.advanced(by: range.endIndex - 1)
+//            return String(self[startIndex...endIndex])
+//        }
+//    }
+//    var length: Int {
+//        get {
+//            return self.lengthOfBytesUsingEncoding(NSUTF8StringEncoding)
+//        }
+//    }
+//}
+

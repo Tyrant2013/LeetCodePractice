@@ -16,15 +16,17 @@ class ZigZag_Conversion: Solution {
         print(convert("ABC", 2))  //ACB
         print(convert("yjvsbxetkierlqfbxyetjbyqqgrtrurpfmkhjocwyjpjzunxsrqdurtkxngqjxgokqxvgarejgqkadhuuayortbqgjhpgpgsfdolffrqmhbokklgklxdeywnhfepukibqwoxbfqpnrgzdrgocdtidpxmucbqojrghfelnuaangzszhibmcmptjbqnfgcoykyfojskluzuwstdaxqejhyuloiqumguwecnnuzbpzvntoqvliawsatdobtkpzhlejytfauwzrjugcptmrserlhhoaudcboimpdrpaqqrzmxddtqvluoweymgspitfshwwynwqfnqrnvvilstiirmgduyuftzxawvbjrrphjiwffgszzcisqoxlprqkqnloloaehrltzjahpsgqxoknfhywyogrethphhtrahkcsmjkgpcdgnrnwpjxgpqkjxbshwlhfxjyjskqkmtqbkdycovidnuokvjrtubzukzdfjtpxphzzmzbawlfjfuvcfpwbqxvcyzhhuygjhhltgoteaznhvlkaaidqhzsfacoucwekerfmfzrhagpxrbxtlajsbezbgnwklcupvaeabviddxaxazqlbcddgcgoreacixudzyeavofanfxngqyhubmaftqyzqcinylowrotfvusctfijdsdggfnbxnbqsjfqwupokitgcmiwtthxlnfruvtsiuiafprbjgpuq", 415))
     }
-    func convert(s: String, _ numRows: Int) -> String {
+    func convert(_ s: String, _ numRows: Int) -> String {
         guard numRows >= 2 else {
             return s
         }
         let nCount = 2 * (numRows - 1)
-        var subStrs = Array(count: numRows, repeatedValue: "")
-        for i in 0..<s.length {
+        var subStrs = Array(repeating: "", count: numRows)
+        
+        for i in 0..<s.count {
             let index = numRows - 1 - abs(numRows - 1 - (i % nCount))
-            subStrs[index] += s[i]
+            let strIndex = s.index(s.startIndex, offsetBy: i)
+            subStrs[index] += String(s[strIndex])
         }
         var result = ""
         for str in subStrs {

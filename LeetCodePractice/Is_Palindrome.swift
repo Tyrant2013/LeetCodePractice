@@ -12,7 +12,9 @@ class Is_Palindrome: Solution {
     
     override func ExampleTest() -> Void {
         [12345678987654321,
-         123456]
+         123456].forEach { num in
+            print("check num: \(num), result : \(self.isPalindrome(num))")
+        }
     }
     
     func isPalindrome(_ x: Int) -> Bool {

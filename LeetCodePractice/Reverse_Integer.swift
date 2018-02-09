@@ -16,11 +16,11 @@ class Reverse_Integer: Solution {
         print(reverse(1534236469))  // Expected 0
     }
     
-    func reverse(x: Int) -> Int {
+    func reverse(_ x: Int) -> Int {
         let ifNegative = x < 0
         let strX = String(abs(x))
         var reverStr = ""
-        for char in strX.characters.reverse() {
+        for char in strX.map({ $0 }).reversed() {
             reverStr += String(char)
         }
         let returnValue = Int(reverStr)!

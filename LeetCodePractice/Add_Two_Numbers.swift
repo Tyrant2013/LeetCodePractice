@@ -45,17 +45,17 @@ class Add_Two_Numbers: Solution {
         second.next?.next?.next?.next?.next?.next?.next?.next = ListNode(8)
         second.next?.next?.next?.next?.next?.next?.next?.next?.next = ListNode(1)
 
-        let beginTimeInterval = NSDate.timeIntervalSinceReferenceDate()
+        let beginTimeInterval = NSDate.timeIntervalSinceReferenceDate
         var Sum = addTwoNumbers(first, second)
-        let endTimeInterval = NSDate.timeIntervalSinceReferenceDate()
+        let endTimeInterval = NSDate.timeIntervalSinceReferenceDate
         print(endTimeInterval - beginTimeInterval)
         while Sum != nil {
-            print(Sum?.val)
+            print(Sum?.val as Any)
             Sum = Sum?.next
         }
     }
     
-    func addTwoNumbers(l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+    func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         var carry = 0
         var first = l1, second = l2
         let resut = ListNode(0)

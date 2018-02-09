@@ -29,33 +29,34 @@ class String_To_Integer_aoti_: Solution {
 //        print(Int32.min)
     }
     
-    func myAtoi(str: String) -> Int {
+    func myAtoi(_ str: String) -> Int {
         var destStr = ""
-        for char in str.characters {
-            if char == " " &&  destStr.length == 0 {
+        for char in str.map({ $0 }) {
+            if char == " " &&  destStr.count == 0 {
                 continue
             }
             destStr += String(char)
         }
         var lastStr = ""
-        if destStr.length == 0 {
+        if destStr.count == 0 {
             return 0
         }
         var ifNegative = false
-        if destStr[0] == "-" {
+        let destArray = destStr.map({ $0 })
+        if destStr.first! == "-" {
             ifNegative = true
-            destStr = destStr.substringFromIndex(destStr.startIndex.advancedBy(1))
+            destStr = String(destStr.dropFirst())
         }
-        else if destStr[0] == "+" {
+        else if destStr.first! == "+" {
             ifNegative = false
-            if destStr.length > 1 && destStr[1] >= "0" && destStr[1] <= "9" {
-                destStr = destStr.substringFromIndex(destStr.startIndex.advancedBy(1))
+            if destStr.count > 1 && destArray[1] >= "0" && destArray[1] <= "9" {
+                destStr = String(destStr.dropFirst())
             }
         }
         
-        for char in destStr.characters {
+        for char in destStr.map({ $0 }) {
             if char >= "0" && char <= "9"{
-                if lastStr.length == 0 && char != "0" {
+                if lastStr.count == 0 && char != "0" {
                     lastStr += String(char)
                 }
                 else {
@@ -63,7 +64,7 @@ class String_To_Integer_aoti_: Solution {
                 }
                 continue
             }
-            if lastStr.length == 0 {
+            if lastStr.count == 0 {
                 return 0
             }
             break;
@@ -78,10 +79,10 @@ class String_To_Integer_aoti_: Solution {
             }
             return Int(tmpVal)
         }
-        if ifNegative == false && destStr.length > 10 {
+        if ifNegative == false && destStr.count > 10 {
             return Int(Int32.max)
         }
-        else if ifNegative == true && destStr.length > 10 {
+        else if ifNegative == true && destStr.count > 10 {
             return Int(Int32.min)
         }
         return 0

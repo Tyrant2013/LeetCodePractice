@@ -27,7 +27,7 @@ class Solution: NSObject {
         
     }
     
-    func showResult(type: Question) -> Void {
+    func showResult(_ type: Question) -> Void {
         var solution: Solution
         switch type {
         case .Two_Sum:

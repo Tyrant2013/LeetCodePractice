@@ -14,7 +14,7 @@ class Two_Sum: Solution {
         print(result)
     }
     
-    func twoSum(nums: [Int], _ target: Int) -> [Int] {
+    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var sum = [Int:Int]()
         for index in 0...nums.count - 1 {
             sum[nums[index]] = index
