@@ -29,6 +29,7 @@ enum Question {
     case Count_And_Say
     case Maximum_Subarray
     case Length_Of_Last_Word
+    case Plus_One
 }
 
 class Solution: NSObject {
@@ -79,6 +80,8 @@ class Solution: NSObject {
             solution = Maximum_Subarray()
         case .Length_Of_Last_Word:
             solution = Length_Of_Last_Word()
+        case .Plus_One:
+            solution = Plus_One()
         }
         solution.ExampleTest()
     }

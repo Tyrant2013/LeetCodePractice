@@ -35,6 +35,7 @@
 		EBC082A4202D7ECE00E2036D /* Merge_Two_Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC082A3202D7ECE00E2036D /* Merge_Two_Lists.swift */; };
 		EBC082A6202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC082A5202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift */; };
 		EBC082A8202D8AC800E2036D /* Remove_Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC082A7202D8AC800E2036D /* Remove_Element.swift */; };
+		EBDE85842030316B00BDBF5F /* Plus_One.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE85832030316B00BDBF5F /* Plus_One.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		EBC082A3202D7ECE00E2036D /* Merge_Two_Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge_Two_Lists.swift; sourceTree = "<group>"; };
 		EBC082A5202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remove_Duplicates_From_Sorted_Array.swift; sourceTree = "<group>"; };
 		EBC082A7202D8AC800E2036D /* Remove_Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remove_Element.swift; sourceTree = "<group>"; };
+		EBDE85832030316B00BDBF5F /* Plus_One.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plus_One.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				EB02A41B202FE6D500C4F3FE /* Count_And_Say.swift */,
 				EB02A41D202FED3D00C4F3FE /* Maximum_Subarray.swift */,
 				EB70191420302AB9007757EF /* Length_Of_Last_Word.swift */,
+				EBDE85832030316B00BDBF5F /* Plus_One.swift */,
 			);
 			path = LeetCodePractice;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				EB28B032202C54A3001E8AFC /* Is_Palindrome.swift in Sources */,
 				EB717B461D6FFD2A003F849C /* Two_Sum.swift in Sources */,
 				EB5DA0821CEDBC710060092D /* AppDelegate.swift in Sources */,
+				EBDE85842030316B00BDBF5F /* Plus_One.swift in Sources */,
 				EBC082A6202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,6 +534,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eli.transition.LeetCodeTowSumTests;
 				PRODUCT_NAME = LeetCodePractice;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeetCodePractice.app/LeetCodePractice";
 			};
 			name = Debug;
@@ -542,6 +547,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eli.transition.LeetCodeTowSumTests;
 				PRODUCT_NAME = LeetCodePractice;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeetCodePractice.app/LeetCodePractice";
 			};
 			name = Release;
@@ -553,6 +559,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eli.transition.LeetCodeTowSumUITests;
 				PRODUCT_NAME = LeetCodePractice;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = LeetCodeTowSum;
 			};
 			name = Debug;
@@ -564,6 +571,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eli.transition.LeetCodeTowSumUITests;
 				PRODUCT_NAME = LeetCodePractice;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = LeetCodeTowSum;
 			};
 			name = Release;
