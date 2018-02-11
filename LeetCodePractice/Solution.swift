@@ -27,6 +27,7 @@ enum Question {
     case Implement_strStr
     case Search_Insert_Position
     case Count_And_Say
+    case Maximum_Subarray
 }
 
 class Solution: NSObject {
@@ -73,6 +74,8 @@ class Solution: NSObject {
             solution = Search_Insert_Position()
         case .Count_And_Say:
             solution = Count_And_Say()
+        case .Maximum_Subarray:
+            solution = Maximum_Subarray()
         }
         solution.ExampleTest()
     }
