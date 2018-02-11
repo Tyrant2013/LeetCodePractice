@@ -24,6 +24,7 @@ enum Question {
     case Merge_Two_Lists
     case Remove_Duplicates_From_Sorted_Array
     case Remove_Element
+    case Implement_strStr
 }
 
 class Solution: NSObject {
@@ -64,6 +65,8 @@ class Solution: NSObject {
             solution = Remove_Duplicates_From_Sorted_Array()
         case .Remove_Element:
             solution = Remove_Element()
+        case .Implement_strStr:
+            solution = Implement_strStr()
         }
         solution.ExampleTest()
     }
