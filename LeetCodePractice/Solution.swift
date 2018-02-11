@@ -26,6 +26,7 @@ enum Question {
     case Remove_Element
     case Implement_strStr
     case Search_Insert_Position
+    case Count_And_Say
 }
 
 class Solution: NSObject {
@@ -70,6 +71,8 @@ class Solution: NSObject {
             solution = Implement_strStr()
         case .Search_Insert_Position:
             solution = Search_Insert_Position()
+        case .Count_And_Say:
+            solution = Count_And_Say()
         }
         solution.ExampleTest()
     }

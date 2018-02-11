@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB02A414202FD79B00C4F3FE /* Search_Insert_Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB02A413202FD79B00C4F3FE /* Search_Insert_Position.swift */; };
+		EB02A41C202FE6D500C4F3FE /* Count_And_Say.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB02A41B202FE6D500C4F3FE /* Count_And_Say.swift */; };
 		EB28B030202C53BF001E8AFC /* Longest_Common_Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB28B02F202C53BF001E8AFC /* Longest_Common_Prefix.swift */; };
 		EB28B032202C54A3001E8AFC /* Is_Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB28B031202C54A3001E8AFC /* Is_Palindrome.swift */; };
 		EB28B034202C54D2001E8AFC /* Roman_To_Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB28B033202C54D2001E8AFC /* Roman_To_Int.swift */; };
@@ -53,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		EB02A413202FD79B00C4F3FE /* Search_Insert_Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_Insert_Position.swift; sourceTree = "<group>"; };
+		EB02A41B202FE6D500C4F3FE /* Count_And_Say.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_And_Say.swift; sourceTree = "<group>"; };
 		EB28B02F202C53BF001E8AFC /* Longest_Common_Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Longest_Common_Prefix.swift; sourceTree = "<group>"; };
 		EB28B031202C54A3001E8AFC /* Is_Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Is_Palindrome.swift; sourceTree = "<group>"; };
 		EB28B033202C54D2001E8AFC /* Roman_To_Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roman_To_Int.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				EBC082A7202D8AC800E2036D /* Remove_Element.swift */,
 				EB5193F4202D997F00845E12 /* Implement_strStr.swift */,
 				EB02A413202FD79B00C4F3FE /* Search_Insert_Position.swift */,
+				EB02A41B202FE6D500C4F3FE /* Count_And_Say.swift */,
 			);
 			path = LeetCodePractice;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				EB717B421D6FFC99003F849C /* Add_Two_Numbers.swift in Sources */,
 				EB717B401D6FF267003F849C /* Longest_Substring_Without_Repeating_Characters.swift in Sources */,
 				EB28B034202C54D2001E8AFC /* Roman_To_Int.swift in Sources */,
+				EB02A41C202FE6D500C4F3FE /* Count_And_Say.swift in Sources */,
 				EB5193F5202D997F00845E12 /* Implement_strStr.swift in Sources */,
 				EB717B441D6FFCC1003F849C /* Solution.swift in Sources */,
 				EB8D16E31D7FA3BC003E64C8 /* Reverse_Integer.swift in Sources */,

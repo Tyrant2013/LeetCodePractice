@@ -21,7 +21,8 @@ class ViewController: UIViewController {
 //        solution.showResult(.Remove_Duplicates_From_Sorted_Array)
 //        solution.showResult(.Remove_Element)
 //        solution.showResult(.Implement_strStr)
-        solution.showResult(.Search_Insert_Position)
+//        solution.showResult(.Search_Insert_Position)
+        solution.showResult(.Count_And_Say)
     }
 
     override func didReceiveMemoryWarning() {
