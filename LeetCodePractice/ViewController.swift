@@ -23,7 +23,8 @@ class ViewController: UIViewController {
 //        solution.showResult(.Implement_strStr)
 //        solution.showResult(.Search_Insert_Position)
 //        solution.showResult(.Count_And_Say)
-        solution.showResult(.Maximum_Subarray)
+//        solution.showResult(.Maximum_Subarray)
+        solution.showResult(.Length_Of_Last_Word)
     }
 
     override func didReceiveMemoryWarning() {
