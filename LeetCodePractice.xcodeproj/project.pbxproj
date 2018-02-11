@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB02A414202FD79B00C4F3FE /* Search_Insert_Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB02A413202FD79B00C4F3FE /* Search_Insert_Position.swift */; };
 		EB28B030202C53BF001E8AFC /* Longest_Common_Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB28B02F202C53BF001E8AFC /* Longest_Common_Prefix.swift */; };
 		EB28B032202C54A3001E8AFC /* Is_Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB28B031202C54A3001E8AFC /* Is_Palindrome.swift */; };
 		EB28B034202C54D2001E8AFC /* Roman_To_Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB28B033202C54D2001E8AFC /* Roman_To_Int.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB02A413202FD79B00C4F3FE /* Search_Insert_Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_Insert_Position.swift; sourceTree = "<group>"; };
 		EB28B02F202C53BF001E8AFC /* Longest_Common_Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Longest_Common_Prefix.swift; sourceTree = "<group>"; };
 		EB28B031202C54A3001E8AFC /* Is_Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Is_Palindrome.swift; sourceTree = "<group>"; };
 		EB28B033202C54D2001E8AFC /* Roman_To_Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roman_To_Int.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				EBC082A5202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift */,
 				EBC082A7202D8AC800E2036D /* Remove_Element.swift */,
 				EB5193F4202D997F00845E12 /* Implement_strStr.swift */,
+				EB02A413202FD79B00C4F3FE /* Search_Insert_Position.swift */,
 			);
 			path = LeetCodePractice;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBC082A8202D8AC800E2036D /* Remove_Element.swift in Sources */,
+				EB02A414202FD79B00C4F3FE /* Search_Insert_Position.swift in Sources */,
 				EB717B421D6FFC99003F849C /* Add_Two_Numbers.swift in Sources */,
 				EB717B401D6FF267003F849C /* Longest_Substring_Without_Repeating_Characters.swift in Sources */,
 				EB28B034202C54D2001E8AFC /* Roman_To_Int.swift in Sources */,

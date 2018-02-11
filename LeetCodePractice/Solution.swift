@@ -25,6 +25,7 @@ enum Question {
     case Remove_Duplicates_From_Sorted_Array
     case Remove_Element
     case Implement_strStr
+    case Search_Insert_Position
 }
 
 class Solution: NSObject {
@@ -67,6 +68,8 @@ class Solution: NSObject {
             solution = Remove_Element()
         case .Implement_strStr:
             solution = Implement_strStr()
+        case .Search_Insert_Position:
+            solution = Search_Insert_Position()
         }
         solution.ExampleTest()
     }
