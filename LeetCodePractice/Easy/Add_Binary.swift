@@ -20,12 +20,12 @@ import UIKit
 class Add_Binary: Solution {
     override func ExampleTest() {
         [
-//            "11": "1", //110
-//            "10": "1",
-//            "110": "0",
-//            "111": "0",
-//            "1111": "1",
-//            "100": "11",
+            "11": "1", //110
+            "10": "1",
+            "110": "0",
+            "111": "0",
+            "1111": "1",
+            "100": "11",
             "11111" : "11",
             ].forEach { (key, value) in
                 print("\(key), \(value), ret: \(self.addBinary(key, value))")
@@ -40,29 +40,11 @@ class Add_Binary: Solution {
         let ra = al > bl ? tmpLb : tmpLa
         
         var next = 0
-        for index in 0..<ra.count {
-            let num = la[index]! + ra[index]! + next
-            if num >= 2 {
-                la[index] = num % 2
-                next = num / 2
-            }
-            else {
-                la[index] = num
-                next = 0
-            }
-        }
-        if la.count > ra.count {
-            for index in ra.count..<la.count {
-                let num = la[index]! + next
-                if num >= 2 {
-                    la[index] = num % 2
-                    next = num / 2
-                }
-                else {
-                    la[index] = num
-                    next = 0
-                }
-            }
+        for index in 0..<la.count {
+            let raN = index >= ra.count ? 0 : ra[index]!
+            let num = la[index]! + raN + next
+            la[index] = num >= 2 ? num % 2 : num
+            next = num >= 2 ? num / 2 : 0
         }
         if (next > 0) {
             la.append(1)
