@@ -25,7 +25,8 @@ class ViewController: UIViewController {
 //        solution.showResult(.Count_And_Say)
 //        solution.showResult(.Maximum_Subarray)
 //        solution.showResult(.Length_Of_Last_Word)
-        solution.showResult(.Plus_One)
+//        solution.showResult(.Plus_One)
+        solution.showResult(.Add_Binary)
     }
 
     override func didReceiveMemoryWarning() {
