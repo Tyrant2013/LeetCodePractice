@@ -31,7 +31,8 @@ class ViewController: UIViewController {
 //        solution.showResult(.Climbing_Stairs)
 //        solution.showResult(.Remove_Duplicates_From_Sorted_List)
 //        solution.showResult(.Merge_Sorted_Array)
-        solution.showResult(.Same_Tree)
+//        solution.showResult(.Same_Tree)
+        solution.showResult(.Symmetric_Tree)
     }
 
     override func didReceiveMemoryWarning() {

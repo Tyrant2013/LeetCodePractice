@@ -56,6 +56,7 @@ enum Question {
     case Remove_Duplicates_From_Sorted_List
     case Merge_Sorted_Array
     case Same_Tree
+    case Symmetric_Tree
 }
 
 class Solution: NSObject {
@@ -120,6 +121,8 @@ class Solution: NSObject {
             solution = Merge_Sorted_Array()
         case .Same_Tree:
             solution = Same_Tree()
+        case .Symmetric_Tree:
+            solution = Symmetric_Tree()
         }
         solution.ExampleTest()
     }
