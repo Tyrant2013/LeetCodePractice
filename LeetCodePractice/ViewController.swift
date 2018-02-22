@@ -26,7 +26,8 @@ class ViewController: UIViewController {
 //        solution.showResult(.Maximum_Subarray)
 //        solution.showResult(.Length_Of_Last_Word)
 //        solution.showResult(.Plus_One)
-        solution.showResult(.Add_Binary)
+//        solution.showResult(.Add_Binary)
+        solution.showResult(.Sqrt_x_)
     }
 
     override func didReceiveMemoryWarning() {

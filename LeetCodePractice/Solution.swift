@@ -31,6 +31,7 @@ enum Question {
     case Length_Of_Last_Word
     case Plus_One
     case Add_Binary
+    case Sqrt_x_
 }
 
 class Solution: NSObject {
@@ -85,6 +86,8 @@ class Solution: NSObject {
             solution = Plus_One()
         case .Add_Binary:
             solution = Add_Binary()
+        case .Sqrt_x_:
+            solution = Sqrt_x_()
         }
         solution.ExampleTest()
     }
