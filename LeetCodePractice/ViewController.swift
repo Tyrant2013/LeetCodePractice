@@ -29,7 +29,8 @@ class ViewController: UIViewController {
 //        solution.showResult(.Add_Binary)
 //        solution.showResult(.Sqrt_x_)
 //        solution.showResult(.Climbing_Stairs)
-        solution.showResult(.Remove_Duplicates_From_Sorted_List)
+//        solution.showResult(.Remove_Duplicates_From_Sorted_List)
+        solution.showResult(.Merge_Sorted_Array)
     }
 
     override func didReceiveMemoryWarning() {

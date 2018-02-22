@@ -43,6 +43,7 @@ enum Question {
     case Sqrt_x_
     case Climbing_Stairs
     case Remove_Duplicates_From_Sorted_List
+    case Merge_Sorted_Array
 }
 
 class Solution: NSObject {
@@ -103,6 +104,8 @@ class Solution: NSObject {
             solution = Climbing_Stairs()
         case .Remove_Duplicates_From_Sorted_List:
             solution = Remove_Duplicates_From_Sorted_List()
+        case .Merge_Sorted_Array:
+            solution = Merge_Sorted_Array()
         }
         solution.ExampleTest()
     }
