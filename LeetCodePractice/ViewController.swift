@@ -32,7 +32,8 @@ class ViewController: UIViewController {
 //        solution.showResult(.Remove_Duplicates_From_Sorted_List)
 //        solution.showResult(.Merge_Sorted_Array)
 //        solution.showResult(.Same_Tree)
-        solution.showResult(.Symmetric_Tree)
+//        solution.showResult(.Symmetric_Tree)
+        solution.showResult(.Maximum_Depth_Of_Binary_Tree)
     }
 
     override func didReceiveMemoryWarning() {

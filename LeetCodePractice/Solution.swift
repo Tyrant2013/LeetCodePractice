@@ -57,6 +57,7 @@ enum Question {
     case Merge_Sorted_Array
     case Same_Tree
     case Symmetric_Tree
+    case Maximum_Depth_Of_Binary_Tree
 }
 
 class Solution: NSObject {
@@ -123,6 +124,8 @@ class Solution: NSObject {
             solution = Same_Tree()
         case .Symmetric_Tree:
             solution = Symmetric_Tree()
+        case .Maximum_Depth_Of_Binary_Tree:
+            solution = Maximum_Depth_Of_Binary_Tree()
         }
         solution.ExampleTest()
     }

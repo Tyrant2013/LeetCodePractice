@@ -21,12 +21,12 @@ class Symmetric_Tree: Solution {
         tn1.right?.left = TreeNode(4)
         tn1.right?.right = TreeNode(3)
         
-        print(self.isSymmetric(tn1))
+        print(self.isSymmetric(tn1))//the answer must be true
         
         tn1.left?.left = nil
         tn1.right?.right = TreeNode(3)
         tn1.right?.left = nil
-        print(self.isSymmetric(tn1))
+        print(self.isSymmetric(tn1))//the answer must be false
         
         
         let tn2 = TreeNode(2)
