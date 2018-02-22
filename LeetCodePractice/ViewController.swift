@@ -30,7 +30,8 @@ class ViewController: UIViewController {
 //        solution.showResult(.Sqrt_x_)
 //        solution.showResult(.Climbing_Stairs)
 //        solution.showResult(.Remove_Duplicates_From_Sorted_List)
-        solution.showResult(.Merge_Sorted_Array)
+//        solution.showResult(.Merge_Sorted_Array)
+        solution.showResult(.Same_Tree)
     }
 
     override func didReceiveMemoryWarning() {

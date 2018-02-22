@@ -17,6 +17,17 @@ public class ListNode {
     }
 }
 
+public class TreeNode {
+    public var val: Int
+    public var left: TreeNode?
+    public var right: TreeNode?
+    public init(_ val: Int) {
+        self.val = val
+        self.left = nil
+        self.right = nil
+    }
+}
+
 enum Question {
     case Two_Sum
     case Add_Two_Numbers
@@ -44,6 +55,7 @@ enum Question {
     case Climbing_Stairs
     case Remove_Duplicates_From_Sorted_List
     case Merge_Sorted_Array
+    case Same_Tree
 }
 
 class Solution: NSObject {
@@ -106,6 +118,8 @@ class Solution: NSObject {
             solution = Remove_Duplicates_From_Sorted_List()
         case .Merge_Sorted_Array:
             solution = Merge_Sorted_Array()
+        case .Same_Tree:
+            solution = Same_Tree()
         }
         solution.ExampleTest()
     }
