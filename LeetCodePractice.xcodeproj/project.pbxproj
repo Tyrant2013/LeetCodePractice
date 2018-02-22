@@ -37,6 +37,7 @@
 		EBC082A4202D7ECE00E2036D /* Merge_Two_Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC082A3202D7ECE00E2036D /* Merge_Two_Lists.swift */; };
 		EBC082A6202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC082A5202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift */; };
 		EBC082A8202D8AC800E2036D /* Remove_Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC082A7202D8AC800E2036D /* Remove_Element.swift */; };
+		EBC90F03203E6A4E00594FB9 /* Remove_Duplicates_From_Sorted_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC90F02203E6A4E00594FB9 /* Remove_Duplicates_From_Sorted_List.swift */; };
 		EBDE85842030316B00BDBF5F /* Plus_One.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE85832030316B00BDBF5F /* Plus_One.swift */; };
 		EBEFC947203E60F50013D9D0 /* Climbing_Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFC946203E60F50013D9D0 /* Climbing_Stairs.swift */; };
 /* End PBXBuildFile section */
@@ -95,6 +96,7 @@
 		EBC082A3202D7ECE00E2036D /* Merge_Two_Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge_Two_Lists.swift; sourceTree = "<group>"; };
 		EBC082A5202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remove_Duplicates_From_Sorted_Array.swift; sourceTree = "<group>"; };
 		EBC082A7202D8AC800E2036D /* Remove_Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remove_Element.swift; sourceTree = "<group>"; };
+		EBC90F02203E6A4E00594FB9 /* Remove_Duplicates_From_Sorted_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remove_Duplicates_From_Sorted_List.swift; sourceTree = "<group>"; };
 		EBDE85832030316B00BDBF5F /* Plus_One.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plus_One.swift; sourceTree = "<group>"; };
 		EBEFC946203E60F50013D9D0 /* Climbing_Stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Climbing_Stairs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -220,6 +222,7 @@
 				EBA3A4622030380700E6D497 /* Add_Binary.swift */,
 				EB66D3E6203E525A00D449D1 /* Sqrt(x).swift */,
 				EBEFC946203E60F50013D9D0 /* Climbing_Stairs.swift */,
+				EBC90F02203E6A4E00594FB9 /* Remove_Duplicates_From_Sorted_List.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				EB28B034202C54D2001E8AFC /* Roman_To_Int.swift in Sources */,
 				EB02A41C202FE6D500C4F3FE /* Count_And_Say.swift in Sources */,
 				EB5193F5202D997F00845E12 /* Implement_strStr.swift in Sources */,
+				EBC90F03203E6A4E00594FB9 /* Remove_Duplicates_From_Sorted_List.swift in Sources */,
 				EB717B441D6FFCC1003F849C /* Solution.swift in Sources */,
 				EB8D16E31D7FA3BC003E64C8 /* Reverse_Integer.swift in Sources */,
 				EBA3A4632030380700E6D497 /* Add_Binary.swift in Sources */,

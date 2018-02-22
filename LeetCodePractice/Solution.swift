@@ -8,6 +8,15 @@
 
 import UIKit
 
+public class ListNode {
+    public var val: Int
+    public var next: ListNode?
+    public init(_ val: Int) {
+        self.val = val
+        self.next = nil
+    }
+}
+
 enum Question {
     case Two_Sum
     case Add_Two_Numbers
@@ -33,6 +42,7 @@ enum Question {
     case Add_Binary
     case Sqrt_x_
     case Climbing_Stairs
+    case Remove_Duplicates_From_Sorted_List
 }
 
 class Solution: NSObject {
@@ -91,7 +101,21 @@ class Solution: NSObject {
             solution = Sqrt_x_()
         case .Climbing_Stairs:
             solution = Climbing_Stairs()
+        case .Remove_Duplicates_From_Sorted_List:
+            solution = Remove_Duplicates_From_Sorted_List()
         }
         solution.ExampleTest()
+    }
+    
+    func showList(_ list: ListNode?) -> Void {
+        var index = list
+        var data = [String]()
+        while index != nil {
+            if let num = index?.val {
+                data.append(String(num))
+            }
+            index = index?.next
+        }
+        print(data.joined(separator: "->"))
     }
 }
