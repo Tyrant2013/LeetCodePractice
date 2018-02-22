@@ -38,6 +38,7 @@
 		EBC082A6202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC082A5202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift */; };
 		EBC082A8202D8AC800E2036D /* Remove_Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC082A7202D8AC800E2036D /* Remove_Element.swift */; };
 		EBDE85842030316B00BDBF5F /* Plus_One.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE85832030316B00BDBF5F /* Plus_One.swift */; };
+		EBEFC947203E60F50013D9D0 /* Climbing_Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFC946203E60F50013D9D0 /* Climbing_Stairs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		EBC082A5202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remove_Duplicates_From_Sorted_Array.swift; sourceTree = "<group>"; };
 		EBC082A7202D8AC800E2036D /* Remove_Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remove_Element.swift; sourceTree = "<group>"; };
 		EBDE85832030316B00BDBF5F /* Plus_One.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plus_One.swift; sourceTree = "<group>"; };
+		EBEFC946203E60F50013D9D0 /* Climbing_Stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Climbing_Stairs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 				EBDE85832030316B00BDBF5F /* Plus_One.swift */,
 				EBA3A4622030380700E6D497 /* Add_Binary.swift */,
 				EB66D3E6203E525A00D449D1 /* Sqrt(x).swift */,
+				EBEFC946203E60F50013D9D0 /* Climbing_Stairs.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBEFC947203E60F50013D9D0 /* Climbing_Stairs.swift in Sources */,
 				EBC082A8202D8AC800E2036D /* Remove_Element.swift in Sources */,
 				EB02A414202FD79B00C4F3FE /* Search_Insert_Position.swift in Sources */,
 				EB717B421D6FFC99003F849C /* Add_Two_Numbers.swift in Sources */,

@@ -32,6 +32,7 @@ enum Question {
     case Plus_One
     case Add_Binary
     case Sqrt_x_
+    case Climbing_Stairs
 }
 
 class Solution: NSObject {
@@ -88,6 +89,8 @@ class Solution: NSObject {
             solution = Add_Binary()
         case .Sqrt_x_:
             solution = Sqrt_x_()
+        case .Climbing_Stairs:
+            solution = Climbing_Stairs()
         }
         solution.ExampleTest()
     }
