@@ -12,6 +12,7 @@
 		EB02A41E202FED3D00C4F3FE /* Maximum_Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB02A41D202FED3D00C4F3FE /* Maximum_Subarray.swift */; };
 		EB10433A203E9F6F0039D3AE /* Symmetric_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB104339203E9F6F0039D3AE /* Symmetric_Tree.swift */; };
 		EB10433C203EBC480039D3AE /* Maximum_Depth_Of_Binary_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB10433B203EBC480039D3AE /* Maximum_Depth_Of_Binary_Tree.swift */; };
+		EB10433E203EC0A40039D3AE /* Binary_Tree_Level_Order_Traversal_II.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB10433D203EC0A40039D3AE /* Binary_Tree_Level_Order_Traversal_II.swift */; };
 		EB1E44E1203E937F00EDD6CB /* Merge_Sorted_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1E44E0203E937F00EDD6CB /* Merge_Sorted_Array.swift */; };
 		EB1E44E3203E9A5E00EDD6CB /* Same_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1E44E2203E9A5E00EDD6CB /* Same_Tree.swift */; };
 		EB28B030202C53BF001E8AFC /* Longest_Common_Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB28B02F202C53BF001E8AFC /* Longest_Common_Prefix.swift */; };
@@ -69,6 +70,7 @@
 		EB02A41D202FED3D00C4F3FE /* Maximum_Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maximum_Subarray.swift; sourceTree = "<group>"; };
 		EB104339203E9F6F0039D3AE /* Symmetric_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symmetric_Tree.swift; sourceTree = "<group>"; };
 		EB10433B203EBC480039D3AE /* Maximum_Depth_Of_Binary_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maximum_Depth_Of_Binary_Tree.swift; sourceTree = "<group>"; };
+		EB10433D203EC0A40039D3AE /* Binary_Tree_Level_Order_Traversal_II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary_Tree_Level_Order_Traversal_II.swift; sourceTree = "<group>"; };
 		EB1E44E0203E937F00EDD6CB /* Merge_Sorted_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge_Sorted_Array.swift; sourceTree = "<group>"; };
 		EB1E44E2203E9A5E00EDD6CB /* Same_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Same_Tree.swift; sourceTree = "<group>"; };
 		EB28B02F202C53BF001E8AFC /* Longest_Common_Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Longest_Common_Prefix.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				EB1E44E2203E9A5E00EDD6CB /* Same_Tree.swift */,
 				EB104339203E9F6F0039D3AE /* Symmetric_Tree.swift */,
 				EB10433B203EBC480039D3AE /* Maximum_Depth_Of_Binary_Tree.swift */,
+				EB10433D203EC0A40039D3AE /* Binary_Tree_Level_Order_Traversal_II.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				EB717B5B1D73E500003F849C /* Longest_Palindromic_Substring.swift in Sources */,
 				EB717B3E1D6FF225003F849C /* Median_Of_Two_Sorted_Array.swift in Sources */,
 				EB28B030202C53BF001E8AFC /* Longest_Common_Prefix.swift in Sources */,
+				EB10433E203EC0A40039D3AE /* Binary_Tree_Level_Order_Traversal_II.swift in Sources */,
 				EB5DA0841CEDBC710060092D /* ViewController.swift in Sources */,
 				EB39B96E1D80EFDA0037BB89 /* String_To_Integer(aoti).swift in Sources */,
 				EB28B032202C54A3001E8AFC /* Is_Palindrome.swift in Sources */,
