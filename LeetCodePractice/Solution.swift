@@ -61,6 +61,7 @@ enum Question {
     case Binary_Tree_Level_Order_Traversal_II
     case Convert_Sorted_Array_To_Binary_Search_Tree
     case Balanced_Binary_Tree
+    case Minimum_Depth_Of_Binary_Tree
 }
 
 class Solution: NSObject {
@@ -135,6 +136,8 @@ class Solution: NSObject {
             solution = Convert_Sorted_Array_To_Binary_Search_Tree()
         case .Balanced_Binary_Tree:
             solution = Balanced_Binary_Tree()
+        case .Minimum_Depth_Of_Binary_Tree:
+            solution = Minimum_Depth_Of_Binary_Tree()
         }
         solution.ExampleTest()
     }
