@@ -37,7 +37,8 @@ class ViewController: UIViewController {
 //        solution.showResult(.Binary_Tree_Level_Order_Traversal_II)
 //        solution.showResult(.Convert_Sorted_Array_To_Binary_Search_Tree)
 //        solution.showResult(.Balanced_Binary_Tree)
-        solution.showResult(.Minimum_Depth_Of_Binary_Tree)
+//        solution.showResult(.Minimum_Depth_Of_Binary_Tree)
+        solution.showResult(.Path_Sum)
     }
 
     override func didReceiveMemoryWarning() {
