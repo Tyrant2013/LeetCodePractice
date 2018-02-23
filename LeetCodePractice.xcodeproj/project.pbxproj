@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB0100E9203FE4070079CF0D /* Balanced_Binary_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0100E8203FE4070079CF0D /* Balanced_Binary_Tree.swift */; };
 		EB02A414202FD79B00C4F3FE /* Search_Insert_Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB02A413202FD79B00C4F3FE /* Search_Insert_Position.swift */; };
 		EB02A41C202FE6D500C4F3FE /* Count_And_Say.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB02A41B202FE6D500C4F3FE /* Count_And_Say.swift */; };
 		EB02A41E202FED3D00C4F3FE /* Maximum_Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB02A41D202FED3D00C4F3FE /* Maximum_Subarray.swift */; };
@@ -66,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB0100E8203FE4070079CF0D /* Balanced_Binary_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balanced_Binary_Tree.swift; sourceTree = "<group>"; };
 		EB02A413202FD79B00C4F3FE /* Search_Insert_Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_Insert_Position.swift; sourceTree = "<group>"; };
 		EB02A41B202FE6D500C4F3FE /* Count_And_Say.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_And_Say.swift; sourceTree = "<group>"; };
 		EB02A41D202FED3D00C4F3FE /* Maximum_Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maximum_Subarray.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 				EB10433B203EBC480039D3AE /* Maximum_Depth_Of_Binary_Tree.swift */,
 				EB10433D203EC0A40039D3AE /* Binary_Tree_Level_Order_Traversal_II.swift */,
 				EBDE5CB2203FAA1D009C146C /* Convert_Sorted_Array_To_Binary_Search_Tree.swift */,
+				EB0100E8203FE4070079CF0D /* Balanced_Binary_Tree.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				EB1E44E1203E937F00EDD6CB /* Merge_Sorted_Array.swift in Sources */,
 				EBC082A6202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift in Sources */,
 				EB10433A203E9F6F0039D3AE /* Symmetric_Tree.swift in Sources */,
+				EB0100E9203FE4070079CF0D /* Balanced_Binary_Tree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
