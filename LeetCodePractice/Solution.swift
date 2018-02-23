@@ -59,6 +59,7 @@ enum Question {
     case Symmetric_Tree
     case Maximum_Depth_Of_Binary_Tree
     case Binary_Tree_Level_Order_Traversal_II
+    case Convert_Sorted_Array_To_Binary_Search_Tree
 }
 
 class Solution: NSObject {
@@ -129,6 +130,8 @@ class Solution: NSObject {
             solution = Maximum_Depth_Of_Binary_Tree()
         case .Binary_Tree_Level_Order_Traversal_II:
             solution = Binary_Tree_Level_Order_Traversal_II()
+        case .Convert_Sorted_Array_To_Binary_Search_Tree:
+            solution = Convert_Sorted_Array_To_Binary_Search_Tree()
         }
         solution.ExampleTest()
     }
@@ -143,5 +146,29 @@ class Solution: NSObject {
             index = index?.next
         }
         print(data.joined(separator: "->"))
+    }
+    
+    func showTree(_ tree: TreeNode?) -> Void {
+        if tree == nil {
+            return
+        }
+        var queue = [TreeNode]()
+        queue.append(tree!)
+        while !queue.isEmpty {
+            let size = queue.count
+            var data = [Int]()
+            for _ in 0..<size {
+                let node = queue.first!
+                queue.removeFirst()
+                data.append(node.val)
+                if let left = node.left {
+                    queue.append(left)
+                }
+                if let right = node.right {
+                    queue.append(right)
+                }
+            }
+            print("\(data.map({ String($0) }).joined(separator: " "))")
+        }
     }
 }
