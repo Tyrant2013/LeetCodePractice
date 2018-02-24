@@ -44,6 +44,7 @@
 		EB8D16E31D7FA3BC003E64C8 /* Reverse_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8D16E21D7FA3BC003E64C8 /* Reverse_Integer.swift */; };
 		EBA3A4632030380700E6D497 /* Add_Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA3A4622030380700E6D497 /* Add_Binary.swift */; };
 		EBB1C645204104E200D908FD /* Best_Time_To_Buy_And_Sell_Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1C644204104E200D908FD /* Best_Time_To_Buy_And_Sell_Stock.swift */; };
+		EBB1C64720410DB100D908FD /* Best_Time_To_Buy_And_Sell_Stock_II.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1C64620410DB100D908FD /* Best_Time_To_Buy_And_Sell_Stock_II.swift */; };
 		EBC082A4202D7ECE00E2036D /* Merge_Two_Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC082A3202D7ECE00E2036D /* Merge_Two_Lists.swift */; };
 		EBC082A6202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC082A5202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift */; };
 		EBC082A8202D8AC800E2036D /* Remove_Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC082A7202D8AC800E2036D /* Remove_Element.swift */; };
@@ -115,6 +116,7 @@
 		EB8D16E21D7FA3BC003E64C8 /* Reverse_Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reverse_Integer.swift; sourceTree = "<group>"; };
 		EBA3A4622030380700E6D497 /* Add_Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_Binary.swift; sourceTree = "<group>"; };
 		EBB1C644204104E200D908FD /* Best_Time_To_Buy_And_Sell_Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Best_Time_To_Buy_And_Sell_Stock.swift; sourceTree = "<group>"; };
+		EBB1C64620410DB100D908FD /* Best_Time_To_Buy_And_Sell_Stock_II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Best_Time_To_Buy_And_Sell_Stock_II.swift; sourceTree = "<group>"; };
 		EBC082A3202D7ECE00E2036D /* Merge_Two_Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge_Two_Lists.swift; sourceTree = "<group>"; };
 		EBC082A5202D863800E2036D /* Remove_Duplicates_From_Sorted_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remove_Duplicates_From_Sorted_Array.swift; sourceTree = "<group>"; };
 		EBC082A7202D8AC800E2036D /* Remove_Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remove_Element.swift; sourceTree = "<group>"; };
@@ -259,6 +261,7 @@
 				EB5044032040FDF600469348 /* Pascal's_Triangle.swift */,
 				EB05D7EE2041022900A09167 /* Pascal's_Triangle_II.swift */,
 				EBB1C644204104E200D908FD /* Best_Time_To_Buy_And_Sell_Stock.swift */,
+				EBB1C64620410DB100D908FD /* Best_Time_To_Buy_And_Sell_Stock_II.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -413,6 +416,7 @@
 				EB02A41E202FED3D00C4F3FE /* Maximum_Subarray.swift in Sources */,
 				EB28B036202D7541001E8AFC /* Valid_Parentheses.swift in Sources */,
 				EB10433C203EBC480039D3AE /* Maximum_Depth_Of_Binary_Tree.swift in Sources */,
+				EBB1C64720410DB100D908FD /* Best_Time_To_Buy_And_Sell_Stock_II.swift in Sources */,
 				EB2F73AD203FEC440042D158 /* Minimum_Depth_Of_Binary_Tree.swift in Sources */,
 				EB70191520302AB9007757EF /* Length_Of_Last_Word.swift in Sources */,
 				EB8D16C81D7D742B003E64C8 /* ZigZag_Conversion.swift in Sources */,

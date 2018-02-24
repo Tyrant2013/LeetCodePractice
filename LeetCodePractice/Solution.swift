@@ -66,6 +66,7 @@ enum Question {
     case Pascal_s_Triangle
     case Pascal_s_Triangle_II
     case Best_Time_To_Buy_And_Sell_Stock
+    case Best_Time_To_Buy_And_Sell_Stock_II
 }
 
 class Solution: NSObject {
@@ -150,6 +151,8 @@ class Solution: NSObject {
             solution = Pascal_s_Triangle_II()
         case .Best_Time_To_Buy_And_Sell_Stock:
             solution = Best_Time_To_Buy_And_Sell_Stock()
+        case .Best_Time_To_Buy_And_Sell_Stock_II:
+            solution = Best_Time_To_Buy_And_Sell_Stock_II()
         }
         if let solutionInstance = solution {
             solutionInstance.ExampleTest()

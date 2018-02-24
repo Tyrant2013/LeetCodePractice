@@ -59,7 +59,10 @@ class Best_Time_To_Buy_And_Sell_Stock: Solution {
             profit = calProfit > profit ? calProfit : profit
         }
         /// 下面的解法和Maximum_Subarray是一样的
-//        var maxCur = 0
+//        guard prices.count > 1 else {
+//            return 0
+//        }
+//        var maxCur = 0, profit = 0
 //        for day in 1..<prices.count {
 //            let tmp = maxCur + prices[day] - prices[day - 1]
 //            maxCur = max(0, tmp)
