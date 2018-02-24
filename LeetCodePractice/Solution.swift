@@ -68,6 +68,7 @@ enum Question {
     case Best_Time_To_Buy_And_Sell_Stock
     case Best_Time_To_Buy_And_Sell_Stock_II
     case Valid_Palindrome
+    case Single_Number
 }
 
 class Solution: NSObject {
@@ -156,6 +157,8 @@ class Solution: NSObject {
             solution = Best_Time_To_Buy_And_Sell_Stock_II()
         case .Valid_Palindrome:
             solution = Valid_Palindrome()
+        case .Single_Number:
+            solution = Single_Number()
         }
         if let solutionInstance = solution {
             solutionInstance.ExampleTest()

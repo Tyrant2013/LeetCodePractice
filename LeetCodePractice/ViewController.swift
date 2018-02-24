@@ -43,7 +43,8 @@ class ViewController: UIViewController {
 //        solution.showResult(.Pascal_s_Triangle_II)
 //        solution.showResult(.Best_Time_To_Buy_And_Sell_Stock)
 //        solution.showResult(.Best_Time_To_Buy_And_Sell_Stock_II)
-        solution.showResult(.Valid_Palindrome)
+//        solution.showResult(.Valid_Palindrome)
+        solution.showResult(.Single_Number)
     }
 
     override func didReceiveMemoryWarning() {
