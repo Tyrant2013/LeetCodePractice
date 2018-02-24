@@ -22,6 +22,7 @@
 		EB28B036202D7541001E8AFC /* Valid_Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB28B035202D7541001E8AFC /* Valid_Parentheses.swift */; };
 		EB2F73AD203FEC440042D158 /* Minimum_Depth_Of_Binary_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2F73AC203FEC440042D158 /* Minimum_Depth_Of_Binary_Tree.swift */; };
 		EB39B96E1D80EFDA0037BB89 /* String_To_Integer(aoti).swift in Sources */ = {isa = PBXBuildFile; fileRef = EB39B96D1D80EFDA0037BB89 /* String_To_Integer(aoti).swift */; };
+		EB5044042040FDF600469348 /* Pascal's_Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5044032040FDF600469348 /* Pascal's_Triangle.swift */; };
 		EB5193F5202D997F00845E12 /* Implement_strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5193F4202D997F00845E12 /* Implement_strStr.swift */; };
 		EB5DA0821CEDBC710060092D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5DA0811CEDBC710060092D /* AppDelegate.swift */; };
 		EB5DA0841CEDBC710060092D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5DA0831CEDBC710060092D /* ViewController.swift */; };
@@ -84,6 +85,7 @@
 		EB28B035202D7541001E8AFC /* Valid_Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valid_Parentheses.swift; sourceTree = "<group>"; };
 		EB2F73AC203FEC440042D158 /* Minimum_Depth_Of_Binary_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minimum_Depth_Of_Binary_Tree.swift; sourceTree = "<group>"; };
 		EB39B96D1D80EFDA0037BB89 /* String_To_Integer(aoti).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String_To_Integer(aoti).swift"; sourceTree = "<group>"; };
+		EB5044032040FDF600469348 /* Pascal's_Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pascal's_Triangle.swift"; sourceTree = "<group>"; };
 		EB5193F4202D997F00845E12 /* Implement_strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Implement_strStr.swift; sourceTree = "<group>"; };
 		EB5DA07E1CEDBC710060092D /* LeetCodePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5DA0811CEDBC710060092D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				EB0100E8203FE4070079CF0D /* Balanced_Binary_Tree.swift */,
 				EB2F73AC203FEC440042D158 /* Minimum_Depth_Of_Binary_Tree.swift */,
 				EBE0FE36203FF31300845D2D /* Path_Sum.swift */,
+				EB5044032040FDF600469348 /* Pascal's_Triangle.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBDE5CB3203FAA1D009C146C /* Convert_Sorted_Array_To_Binary_Search_Tree.swift in Sources */,
+				EB5044042040FDF600469348 /* Pascal's_Triangle.swift in Sources */,
 				EBEFC947203E60F50013D9D0 /* Climbing_Stairs.swift in Sources */,
 				EBC082A8202D8AC800E2036D /* Remove_Element.swift in Sources */,
 				EB02A414202FD79B00C4F3FE /* Search_Insert_Position.swift in Sources */,

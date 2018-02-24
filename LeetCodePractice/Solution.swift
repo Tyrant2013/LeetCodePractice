@@ -63,6 +63,7 @@ enum Question {
     case Balanced_Binary_Tree
     case Minimum_Depth_Of_Binary_Tree
     case Path_Sum
+    case Pascal_s_Triangle
 }
 
 class Solution: NSObject {
@@ -71,7 +72,7 @@ class Solution: NSObject {
     }
     
     func showResult(_ type: Question) -> Void {
-        var solution: Solution
+        var solution: Solution?
         switch type {
         case .Two_Sum:
             solution = Two_Sum()
@@ -141,8 +142,15 @@ class Solution: NSObject {
             solution = Minimum_Depth_Of_Binary_Tree()
         case .Path_Sum:
             solution = Path_Sum()
+        case .Pascal_s_Triangle:
+            solution = Pascal_s_Triangle()
         }
-        solution.ExampleTest()
+        if let solutionInstance = solution {
+            solutionInstance.ExampleTest()
+        }
+        else {
+            print("还没有初始化solution")
+        }
     }
     
     func showList(_ list: ListNode?) -> Void {
