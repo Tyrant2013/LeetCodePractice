@@ -64,6 +64,7 @@ enum Question {
     case Minimum_Depth_Of_Binary_Tree
     case Path_Sum
     case Pascal_s_Triangle
+    case Pascal_s_Triangle_II
 }
 
 class Solution: NSObject {
@@ -144,6 +145,8 @@ class Solution: NSObject {
             solution = Path_Sum()
         case .Pascal_s_Triangle:
             solution = Pascal_s_Triangle()
+        case .Pascal_s_Triangle_II:
+            solution = Pascal_s_Triangle_II()
         }
         if let solutionInstance = solution {
             solutionInstance.ExampleTest()

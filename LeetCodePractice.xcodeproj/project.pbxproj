@@ -11,6 +11,7 @@
 		EB02A414202FD79B00C4F3FE /* Search_Insert_Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB02A413202FD79B00C4F3FE /* Search_Insert_Position.swift */; };
 		EB02A41C202FE6D500C4F3FE /* Count_And_Say.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB02A41B202FE6D500C4F3FE /* Count_And_Say.swift */; };
 		EB02A41E202FED3D00C4F3FE /* Maximum_Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB02A41D202FED3D00C4F3FE /* Maximum_Subarray.swift */; };
+		EB05D7EF2041022900A09167 /* Pascal's_Triangle_II.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB05D7EE2041022900A09167 /* Pascal's_Triangle_II.swift */; };
 		EB10433A203E9F6F0039D3AE /* Symmetric_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB104339203E9F6F0039D3AE /* Symmetric_Tree.swift */; };
 		EB10433C203EBC480039D3AE /* Maximum_Depth_Of_Binary_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB10433B203EBC480039D3AE /* Maximum_Depth_Of_Binary_Tree.swift */; };
 		EB10433E203EC0A40039D3AE /* Binary_Tree_Level_Order_Traversal_II.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB10433D203EC0A40039D3AE /* Binary_Tree_Level_Order_Traversal_II.swift */; };
@@ -74,6 +75,7 @@
 		EB02A413202FD79B00C4F3FE /* Search_Insert_Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_Insert_Position.swift; sourceTree = "<group>"; };
 		EB02A41B202FE6D500C4F3FE /* Count_And_Say.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count_And_Say.swift; sourceTree = "<group>"; };
 		EB02A41D202FED3D00C4F3FE /* Maximum_Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maximum_Subarray.swift; sourceTree = "<group>"; };
+		EB05D7EE2041022900A09167 /* Pascal's_Triangle_II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pascal's_Triangle_II.swift"; sourceTree = "<group>"; };
 		EB104339203E9F6F0039D3AE /* Symmetric_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symmetric_Tree.swift; sourceTree = "<group>"; };
 		EB10433B203EBC480039D3AE /* Maximum_Depth_Of_Binary_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maximum_Depth_Of_Binary_Tree.swift; sourceTree = "<group>"; };
 		EB10433D203EC0A40039D3AE /* Binary_Tree_Level_Order_Traversal_II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary_Tree_Level_Order_Traversal_II.swift; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				EB2F73AC203FEC440042D158 /* Minimum_Depth_Of_Binary_Tree.swift */,
 				EBE0FE36203FF31300845D2D /* Path_Sum.swift */,
 				EB5044032040FDF600469348 /* Pascal's_Triangle.swift */,
+				EB05D7EE2041022900A09167 /* Pascal's_Triangle_II.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB05D7EF2041022900A09167 /* Pascal's_Triangle_II.swift in Sources */,
 				EBDE5CB3203FAA1D009C146C /* Convert_Sorted_Array_To_Binary_Search_Tree.swift in Sources */,
 				EB5044042040FDF600469348 /* Pascal's_Triangle.swift in Sources */,
 				EBEFC947203E60F50013D9D0 /* Climbing_Stairs.swift in Sources */,

@@ -39,7 +39,8 @@ class ViewController: UIViewController {
 //        solution.showResult(.Balanced_Binary_Tree)
 //        solution.showResult(.Minimum_Depth_Of_Binary_Tree)
 //        solution.showResult(.Path_Sum)
-        solution.showResult(.Pascal_s_Triangle)
+//        solution.showResult(.Pascal_s_Triangle)
+        solution.showResult(.Pascal_s_Triangle_II)
     }
 
     override func didReceiveMemoryWarning() {
