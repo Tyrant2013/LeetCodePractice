@@ -40,7 +40,8 @@ class ViewController: UIViewController {
 //        solution.showResult(.Minimum_Depth_Of_Binary_Tree)
 //        solution.showResult(.Path_Sum)
 //        solution.showResult(.Pascal_s_Triangle)
-        solution.showResult(.Pascal_s_Triangle_II)
+//        solution.showResult(.Pascal_s_Triangle_II)
+        solution.showResult(.Best_Time_To_Buy_And_Sell_Stock)
     }
 
     override func didReceiveMemoryWarning() {
