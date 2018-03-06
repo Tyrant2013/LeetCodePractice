@@ -44,7 +44,9 @@ class ViewController: UIViewController {
 //        solution.showResult(.Best_Time_To_Buy_And_Sell_Stock)
 //        solution.showResult(.Best_Time_To_Buy_And_Sell_Stock_II)
 //        solution.showResult(.Valid_Palindrome)
-        solution.showResult(.Single_Number)
+//        solution.showResult(.Single_Number)
+        
+        solution.showResult(.Median_Of_Two_Sorted_Array)
     }
 
     override func didReceiveMemoryWarning() {

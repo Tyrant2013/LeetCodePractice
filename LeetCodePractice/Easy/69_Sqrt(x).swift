@@ -23,7 +23,7 @@ class Sqrt_x_: Solution {
                 print("num is : \(num), result is: \(self.mySqrt(num))")
         }
     }
-    
+    // 可以使用二分法来寻找这个数
     func mySqrt(_ x: Int) -> Int {
         var ret = 0
         var testRe = 0
